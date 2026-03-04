@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root[data-theme=false] {
+    /* For Static Text */
+    --static-text-light: #ffffff;
+    --static-text-black: #000000;
+
+
+    /* Theme colors */
+    --text: #0f0b13;
+    --background: #fcfbfe;
+
+    
+    /* For Backgrounds */
+    --primary: #8c2999;
+    --secondary: #8c2999;
+    --accent: #8c29997f;
+}
+
+:root[data-theme=true] {
+    /* For Static Text */
+    --static-text-light: #ffffff;
+    --static-text-black: #000000;
+
+    
+    /* Theme colors */
+    --text: #f0ecf4;
+    /* --background: #0c0018; */
+    --background: #121212;
+    
+    
+    /* For Backgrounds */
+    --primary: #8c2999;
+    --secondary: #782483;
+    --accent: #8c29997f;
+}
+
