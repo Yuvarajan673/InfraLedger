@@ -9,7 +9,6 @@ function LandingLayout() {
     <>
         <Navbar />
         <Outlet />
-        
     </>
   )
 }
